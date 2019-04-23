@@ -81,7 +81,9 @@ nav {
 }
 
 .navigation {
+    display:flex;
     float: right;
+    flex-direction: row;
 }
 
 .nav-item {
