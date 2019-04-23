@@ -9,31 +9,55 @@
 </head>
 <body>
     <header>
-
+        <h1>Let's explore the possibilities</h1>
     </header>
     <nav>
+    <!--these should all be in Lato Light-->
         <li>
-            <!--these should all be in Lato Light-->
-            <ul>About</ul>
-            <ul>Portfolio</ul>
-            <ul>Skills</ul>
-            <ul>Contact</ul>
+            <ul><a href="#about">About</a></ul>
+            <ul><a href="#portfolio">Portfolio</a></ul>
+            <ul><a href="#skills">Skills</a></ul>
+            <ul><a href="#contact">Contact</a></ul>
         </li>
     </nav>
     <h1></h1>
         <!--format for all section titles should be lowercase-->
-    <div role ="about">
-
+    <div id="about" role="about">
+        <h2>About</h2>
+        <p></p>
     </div>
-    <div role ="portfolio">
+    <div id="portfolio" role="portfolio">
+        <h2>Portfolio</h2>
         <!--format for these portfolio names should all be title casing-->
         <!--titles in Lato Light, descriptions in Monsterrat-->
-    </div>
-    <div role = "skills">
+        <div id="quiz app" role="quiz app section">
+            <!--need to upload image here-->
+            <h3>Sales and Marketing Quiz App</h3>
+            <p>I designed this quiz so it could be completed in under 5 minutes, 
+                while also accurately assessing the user’s knowledge of topics 
+                related to sales and marketing. I wanted to give the user 
+                immediate feedback around correct or incorrect answers as well 
+                as provide them with a score at the end and a list of questions 
+                and answers. Take it and let me know how you do!</p>
+                <button onclick="window.open('https://github.com/argledargle/quiz-app')">GitHub</button>
+                <button onclick="window.open('https://argledargle.github.io/quiz-app/')">Live</button>
 
+            <section role="technology used">
+                <h4>Technology used</h4>
+                <li>
+                    <ul>JavaScript</ul>
+                    <ul>jQuery</ul>
+                    <ul>HTML</ul>
+                    <ul>CSS</ul>
+                </li>
+            </section>
+        </div>
     </div>
-    <div role = "contact">
-
+    <div id="skills" role="skills">
+        <h2>Skills</h2>
+    </div>
+    <div id="contact" role="contact">
+        <h2>Contact</h2>
     </div>
 </body>
 </html>
