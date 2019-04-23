@@ -8,6 +8,12 @@ body {
     flex-direction: column;
     margin: 0px;
 }
+.about, .portfolio, .skills, .contact {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
