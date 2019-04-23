@@ -3,10 +3,30 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Lato', sans-serif;
 use Lato for titles and Montserrat for content */
 
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
 }
 
-p, ul, li {
+p, ul, li, button {
     font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+        background-image: url("https://amp.businessinsider.com/images/5c755fc870a61e715f5f733b-1920-1080.jpg");
+        background-repeat: no-repeat;
+        height: 700px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
