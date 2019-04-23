@@ -20,6 +20,15 @@ body {
     background: none;
 }
 
+.shield-image {
+    height: 100px;
+    width: 80px;
+}
+
+.logos {
+    display: inline-block;
+}
+
 #about-holder, #skills-holder {
     background-color: #FBFCFC;
 }
