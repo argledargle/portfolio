@@ -29,11 +29,16 @@ li {
 
 .nav-item {
     display: inline-block;
+}
+
+a {
+    text-decoration: none;
     color: lavender;
 }
 
-nav {
-    color: lavender;
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(217,107,53,1)
 }
 
 header {
