@@ -141,3 +141,10 @@ h1 {
     color: lavender;
     border-radius: 6px;
 }
+
+footer {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
