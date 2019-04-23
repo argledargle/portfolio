@@ -38,7 +38,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: rgba(217,107,53,1)
+    text-decoration-color: yellow
 }
 
 header {
