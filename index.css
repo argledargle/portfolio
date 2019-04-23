@@ -9,6 +9,7 @@ body {
     margin: 0px;
     box-sizing: border-box;
 }
+
 .about, .portfolio, .skills, .contact {
     margin-top: 150px;
     margin-bottom: 150px;
@@ -60,18 +61,34 @@ p, ul, li, button {
     font-family: 'Montserrat', sans-serif;
 }
 
+h5 {
+    float: left;
+    color: lavender;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    margin: 5px 0px 0px 20px;
+}
+
 li {
     list-style-type: none;
 }
 
-.navigation {
+nav {
     position: fixed;
+    width: 100%;
     background-color: rgba(17,37,78,1);
     width: 100%;
 }
 
+.navigation {
+    float: right;
+}
+
 .nav-item {
     display: inline-block;
+    padding-right: 40px;
+    padding-left: 0px;
+    float: right;
 }
 
 a {
