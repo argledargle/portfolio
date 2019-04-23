@@ -19,6 +19,15 @@ p, ul, li, button {
 
 li {
     list-style-type: none;
+
+}
+
+.navigation {
+    
+}
+
+.nav-item {
+    display: inline-block;
 }
 
 header {
@@ -33,11 +42,29 @@ header {
 
 h1 {
     color: lavender;
+    text-align: center;
 }
 
-.title-text-box{
+
+.title-text-box {
     background-color:rgba(0, 0, 0, 0.438);
-    padding:20px 20px 35px 20px;
-    max-width:350px;
-    margin:0 auto;
+    padding:20px 20px 20px 20px;
+    max-width:425px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 6px;
+}
+
+.tech-list {
+    display: inline-block;
+}
+
+.tech-used {
+    background-color:rgba(0, 0, 0, 0.438);
+    padding:5px 8px 5px 8px;
+    display: inline;
+    color: lavender;
+    border-radius: 6px;
 }
