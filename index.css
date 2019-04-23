@@ -19,15 +19,21 @@ p, ul, li, button {
 
 li {
     list-style-type: none;
-
 }
 
 .navigation {
-    
+    position: fixed;
+    background-color: rgba(17,37,78,1);
+    width: 100%;
 }
 
 .nav-item {
     display: inline-block;
+    color: lavender;
+}
+
+nav {
+    color: lavender;
 }
 
 header {
