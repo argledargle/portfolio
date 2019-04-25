@@ -35,6 +35,12 @@ button {
     border-radius: 6px;
 }
 
+button:hover {
+    background: lavender;
+    color: rgba(17,37,78,1);
+    cursor: pointer;
+}
+
 .portfolio-pic {
     width: 40%;
     height: 40%;
