@@ -154,6 +154,7 @@ footer {
     margin-bottom: 5px;
 }
 
-.far {
-    size: 12px;
+.icon {
+    width: 60px;
+    fill: lavender;
 }
