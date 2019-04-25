@@ -17,6 +17,12 @@ body {
     margin-right: 20%;
 }
 
+.profile-pic {
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+
 .skills {
     background: none;
 }
