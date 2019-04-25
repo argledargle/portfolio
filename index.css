@@ -21,6 +21,14 @@ body {
     width: 40%;
     height: 40%;
     float: right;
+    margin-right: 16px;
+}
+
+.portfolio-pic {
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-right: 16px;
 }
 
 .skills {
