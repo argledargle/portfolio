@@ -21,6 +21,10 @@ body {
     margin-right: 20%;
 }
 
+#portfolio-item {
+    margin-top: 200px;
+}
+
 .profile-pic {
     width: 40%;
     height: 40%;
@@ -47,7 +51,7 @@ button:hover {
 
 .portfolio-pic {
     width: 40%;
-    height: 40%;
+    max-height: 200px;
     float: left;
     margin-right: 16px;
 }
