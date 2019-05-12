@@ -3,6 +3,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Lato', sans-serif;
 use Lato for titles and Montserrat for content */
 
+html {
+scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
